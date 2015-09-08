@@ -15,9 +15,9 @@ import javafx.scene.text.Text;
 public class Tile extends StackPane {
 
 	// static variables
-	public static boolean isPlayersTurn = true; // directs who's turn it is. NOTE STATIC
-	public static int markCounter = 0;  // NOTE STATIC
-	
+	public static boolean isPlayersTurn = true; // directs who's turn it is.
+	public static int markCounter = 0; 
+	// instance variables
 	private Text mark; //
 	private boolean isMarked = false; // is this tile marked or not
 	
